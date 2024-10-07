@@ -1,0 +1,28 @@
+@charset "utf-8";
+body{
+    margin: auto;
+    background-color:#eeeeee;
+    font: 100 20px "优设黑体";
+}
+.box{
+    width: 300px;
+    overflow: hidden;
+    border: 10px solid #e4b23d;
+    /* border-radius: 150px; */
+}
+.left{
+    margin-top: -400px;
+}
+.content_box{
+    margin: 0px 50px;
+    margin-bottom: 100px;
+
+}
+.box:hover{
+    background-image: url(../resource/images/people2.jpg);
+}
+.box:hover img{
+    display: none;
+}
+
+

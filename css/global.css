@@ -1,0 +1,249 @@
+@charset 'utf-8';
+body{
+    background-color: #eeeeee;
+    /* width: 100%; */
+    margin: auto;
+    font-size: 16px;
+    font-family: "楷体";
+}
+nav{
+  /* 顶部导航栏 */
+    width: 100%;
+    height: 50px; 
+    background-color: #000000;
+    /* background-color: #ffffff; */   
+}
+.top_menu{
+  /* 居中可以让顶部贴紧 */
+  margin: auto;
+  line-height:50px;
+  
+}
+ul.top_menu li{
+  list-style: none;
+  float: left;
+  margin-right: 80px;
+}
+
+li.item a,img{
+   text-decoration: none;
+   font-size: 20px;
+   font-family: "楷体";
+   color: #dddddd;
+}
+
+li.item a:hover{
+  border-bottom: 3px solid #179df1d6;
+  color: #ffffff;
+}
+
+#music{
+  /* 音乐图标居中 */
+    padding: 5px;
+    height: 25px;
+
+}
+.hidden_box{
+  /* 隐藏菜单盒子 */
+    display: none;
+    /* margin-top: 5px; */
+    background-color: #ffffff;
+    /* 脱离文档流，可以重叠！ */
+    position: absolute;
+    text-align: center;
+}
+
+li.item:hover .hidden_box{
+  display: block;
+ 
+}
+
+#hidden_box1{
+    height: 250px;
+    padding: 20px;
+    
+}
+
+#hidden_content1{
+  height: 5px;
+  line-height: 5px;
+}
+#hidden_box2{
+  height: 40px;
+  width: 200px;
+}
+
+#time{
+  height: 30px;
+  margin-top: 5px;
+  line-height: 30px;
+  /* float: right; */
+  background-color: white;
+  border: none;
+}
+#change_color{
+  width: 15px;
+  height: 15px;
+  border-radius:7px;
+  background-color: #000000;
+}
+
+.user{
+  background-color: #000000;
+  height: 40px;
+  width: 40px;
+}
+
+
+
+
+.top_pic img{
+  /* 主页图片 */
+  width: 100%;
+  height: 630px;
+    /* 1477x615 */
+    /* height: 500px; */
+    margin-top: -4px;
+}
+
+.icon{
+ height: 64px;
+ width: 64px;
+ background-repeat: no-repeat;
+ position: absolute;
+ 
+}
+#left_icon{
+   margin:-400px auto auto 100px;
+   background-image: url(../resource/images/left.png);
+   float: left;
+}
+#right_icon{
+ margin:-400px auto auto 1300px;
+ background-image: url(../resource/images/right.png);
+ float: right;
+}
+#left_icon:hover{
+ background-image: url(../resource/images/left_hover.png);
+}
+#right_icon:hover{
+ background-image: url(../resource/images/right_hover.png);
+}
+
+
+
+.box1_item{
+  /* 中间简介 */
+  background-color: #ffffff;
+  width: 400px;
+  height: 250px;
+  float:left;
+  margin:-50px 40px 0 50px;
+  border-radius: 15px;
+  position: relative;
+  text-align: center;
+  padding-top: 10px;
+  box-shadow: rgba(133, 132, 132, 0.712) 10px 10px 10px;
+}
+.box1_item:hover{
+   margin-top: -55px;
+   box-shadow: rgba(133, 132, 132, 0.712)  10px 10px 10px 10px;
+}
+
+
+.type_box{
+  margin-top: 300px;
+  height: 400px;
+  clear: both;
+  padding: 30px;
+}
+div.type_box ul{
+   height: 80px;
+   margin-left: 480px;
+}
+li.item:hover {
+   border-bottom: 3px solid #179df1d6;
+}
+.img_box1{
+  margin-left: 100px;
+  display: flex;
+  height: 300px;
+  padding: 20px;
+}
+.img_box2{
+  height: 300px;
+  width: 260px;
+  overflow: hidden;
+}
+
+.img_box2 img{
+  margin-right: 30px;
+  height: 300px;
+  border-radius:10px;
+}
+
+/* .img_box2 img:hover{
+  margin-top: -25px;
+  height: 350px;
+} */
+
+
+.menu{
+  text-indent:20px;
+  margin-top: 20px;
+  height: 50px;
+  margin-left: 50px;
+  line-height: 50px;
+  border-left: 5px solid #179df1d6;
+  clear: both;
+  font-size: 20px;
+}
+.box{
+    position: relative;
+    margin:20px 50px 50px 50px;
+    height: 273px;
+    color: #ffffff;
+    background-color: #179df1d6;
+
+    /* border: 3px dotted #000000; */
+    /* box-shadow: rgba(133, 132, 132, 0.712)  10px 10px 10px; */
+    /* border: 3px solid #179df1d6; */
+   
+}
+.pic{
+    float: left;
+    height:273px ;
+}
+.para{
+    position: absolute;
+    margin-left: 500px;
+    text-indent: 10px;
+    padding: 50px;
+}
+
+#box2 img:hover{
+     /* margin: -1px; */
+     opacity: 0.8;
+}
+
+
+.toTop {
+  position: fixed;
+  z-index: 998;
+  left: 50%;
+  margin-left: 680px;
+  bottom: 30px;
+  width: 40px;
+  height: auto;
+  border: 1px solid #ddd;
+ background-color: #fbfbfb;
+  border-radius: 5px;
+}
+#footer{
+  color: gray;
+  height: 120px;
+  line-height: 100px;
+  background-color: #333;
+  text-align: center;
+  /* margin-top: 50px ; */
+}

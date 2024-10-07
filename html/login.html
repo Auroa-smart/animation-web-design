@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+
+    <div class="sign-in-form">
+           <h1>Service Login Form</h1>
+           <div class="container">
+               <div class="form-info">
+                    <h2 style="color: #ff149373;">Login</h2>        
+                    <div id="login-form" name="login-form">
+                        <div class="input-group">
+                            <span>
+                                <img src="../resource/images/people.png" alt="">
+                           </span> 
+                            <input type="text" placeholder="Username or Email">         
+                        </div>
+                        <div class="input-group">
+                            <span>
+                                <img src="../resource/images/key.png" alt="">
+                            </span> 
+                            <input type="password" placeholder="Password">         
+                        </div>
+                        <div class="form-bottom">
+                               <div class="form-check" style="display: block;">
+                                <input type="checkbox" id="remember" name="remember">
+                                <label for="">Remember me</label>
+                               </div>
+                               <a href="#" class="forgot">Forgot password?</a>
+                        </div>
+                        <button class="login-submit" onclick="login()">Login</button>
+                    </div>
+                    <p class="account">
+                        Dont't have an account? 
+                        <a href="sign.html" > Sign up</a>
+                           
+                    </p>
+               </div>   
+           </div>
+    </div>
+</body>
+<script src="../js/login.js"></script>
+</html>

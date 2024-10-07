@@ -1,0 +1,34 @@
+@charset 'utf-8';
+body{
+    background-color: #eeeeee;
+    /* background-image: url(../resource/images/bg4.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+
+}
+.img_box{
+    /* margin: 0 auto; */
+    border: 20px solid #ffffff;
+    border-radius:30px;
+    box-shadow: gray 20px 20px 20px;
+    margin: 50px auto auto 120px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    width: 1258px;
+    height: 300px;
+    /* width: 800px; */
+    /* overflow: visible; */
+}
+img:hover {
+   height: 300px;
+   /* 等比例放大高度 */
+   /* height: 400px; */
+   margin: -10px;
+   z-index: 2;
+}
+img:hover .img_box{
+    /* overflow:auto; */
+    /* overflow: hidden; */
+}

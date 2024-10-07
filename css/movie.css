@@ -1,0 +1,117 @@
+body{
+    margin: auto;
+    font-family: "楷体";
+    font-size: 16px;
+    background-color: #eeeeee;
+    /* background-image: url(../resource/images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+  
+}
+h1{
+    text-align: center;
+}
+.container{
+    margin: auto;
+    margin-bottom: 250px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.box img{
+    border: 10px solid #e4b23d;
+    box-shadow: #ff923b 10px 10px 10px;
+}
+.box img:hover{
+    border-color: #ff923b;
+    margin-top: -10px;
+}
+
+.box:hover p.name{
+    color:red;
+}
+.name{
+    text-align: center;
+    /* text-decoration: underline; */
+    font-size: 20px;
+}
+
+
+.para_box{
+    display: none;
+    height: 200px;
+    width: 400px;
+    background-color: #f7e9b6;
+    margin-top: 10px;
+    padding: 20px;
+    position: absolute;
+}
+.box:hover .para_box{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container{
+  margin: auto;
+  /* position: relative; */
+  /* display: flex;
+  flex-direction:row; */
+  /* flex-wrap:nowrap; */
+  /* 两端为子元素间距一半 */
+  /* justify-content: space-around;  */
+/* }
+.box{
+    position: relative;
+    margin: 60px;
+
+    /* float: left; 
+}
+.box img{
+   
+}
+.para_box{
+    display: none;
+    height: 300px;
+    width: 500px;
+    background-color: red;
+}
+.box:hover .para_box{
+    display: block;
+} */ 
+
+
+
+/* .movie_name{
+    margin: 20px 50px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 10px;
+    border-left:5px solid #2183f6;
+} */
